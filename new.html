@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>YI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .login-form {
+            background-color: #e2e2e2;
+            padding: 15px;
+            border-radius: 5px;
+            max-width: 400px;
+            margin: 20px auto;
+        }
+        .login-form input[type="text"],
+        .login-form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-form input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        section {
+            margin-top: 40px;
+        }
+        .info-section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .survey-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        .survey-form input[type="text"],
+        .survey-form input[type="email"],
+        .survey-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .survey-form input[type="submit"] {
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+            max-width: 80%;
+            margin: 50px auto;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        .image-container img {
+            width: 200px; /* Equal width for both images */
+            height: auto; /* Maintain aspect ratio */
+            margin: 0 20px; /* Space between the images */
+        }
+ 
+    </style>
+</head>
+<body>
+<div>
+<header>
+    <div class="image-container">
+        <!-- Left Image -->
+        <img src="YI.png" alt="Image 1">
+    
+        <!-- Right Image -->
+        <img src="CII.png" alt="Image 2">
+    </div>
+
+    <h1>Yi Digital Safety Audit </h1>
+</header>
+</div>
+<div class="container">
+
+    
+    <div class="container">
+        
+        <h2>Young Indians</h2><br>
+        <ul>
+            <li>Enabling Youth Leadership</li>
+            <li>Shaping Responsible Youth</li>
+            <li>Youth Skill Development & Training</li>
+            <li>Giving Voice To Young India</li>
+        </ul>
+        <!-- Paragraph 2 with normal background -->
+        <div class="paragraph-2">
+            <p>Young Indians ( Yi ) is a movement for Indian youth to Converge, Lead, Co-Create and influence India’s Future. As an integral part of the Confederation of Indian Industry (CII). Yi’s mission to strengthen the future of India gives a stage and voice to the country’s next generation of changemakers. It aims to instill in young minds the power of leadership, enhance the youth entrepreneurial ecosystem and create youth-led changes to build the nation.</p>
+        </div>
+    </div>
+
+        <div class="text-content">
+
+            <div class="text-content">
+                <h1>Masoom Digital Safety Audit</h1><br>
+    
+            <h2>Welcome to the Digital Safety Audit</h2>
+    
+                <H3>The Digital Safety Audit is designed to assess and enhance your online security. 
+                Our goal here is to help you safeguard your digital presence. This audit will guide you through essential areas such as Password Security, Phishing Awareness, Social Media Privacy, Safe Browsing, and Data Backup Strategies.
+                This audit will help you navigate the vast digital landscape, providing key insights and tools to protect your personal information and ensure your online activities are secure for years to come.</H3>
+        </div>
+
+     
+               <BR> <H2>Think of this as your personal online security quiz, helping you spot any weak spots in your digital habits and giving you tips on how to improve.</H2><br>
+
+    <!-- Login Form at the Top -->
+    <div class="login-form">
+        <h2>Tell me About Yourself</h2>
+        <form action="/login" method="POST">
+            <label for="name">name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email id">Email ID:</label><br>
+            <input type="email id" id="email id" name="email id" required><br>
+            <br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+    <div class="app">         
+        <h1>Masoom Digital Safety Audit</h1>        
+        <div class="quiz">            
+            <h2 id="question">Question goes here</h2>            
+            <div id="answer-buttons">                
+                <button class="btn">Answer 1</button>                
+                <button class="btn">Answer 2</button>                
+                <button class="btn">Answer 3</button>                
+                <button class="btn">Answer 4</button>            
+            </div>        
+        </div>        
+        <button id="next-btn">Next</button>    
+    </div>    
+    <script src="main.js"></script> <br><br><br><br><br>
+
+    <div class="container">
+        <!-- Tick Icon in the Center -->
+        <div class="tick-icon">&#10004;</div><br>
+    
+        <!-- Thank You Text -->
+        <h1>Thank You for Your Submission!</h1><br>
+        <p>Your form has been successfully submitted. We appreciate your input.</p><br>
+    
+        <!-- Buttons -->
+        <a href="#view-score" class="button">View Score</a><br>
+        <a href="#about" class="button">About</a><br>
+        <a href="#access-sources" class="button">Access Sources</a><br>
+    </div>
+    
+    <div class="score-container">
+        <!-- Page Heading -->
+        <h2>Category-Wise Scores</h2>
+    
+        <!-- Category 1 Score with Progress Bar -->
+        <div class="score-category">
+            <h3>Category 1</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 85%;">85%</div>
+            </div>
+        </div>
+    
+        <!-- Category 2 Score with Progress Bar -->
+        <div class="score-category">
+            <h3>Category 2</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 78%;">78%</div>
+            </div>
+        </div>
+    
+        <!-- Category 3 Score with Progress Bar -->
+        <div class="score-category">
+            <h3>Category 3</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 92%;">92%</div>
+            </div>
+        </div>
+    
+        <!-- Category 4 Score with Progress Bar -->
+        <div class="score-category">
+            <h3>Category 4</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 88%;">88%</div>
+            </div>
+        </div>
+
+        <body>
+
+            <div class="content-container">
+                <!-- Title -->
+                <h1>Introduction to Digital Safety </h1>
+            
+                <!-- Paragraph with Grey Background -->
+                <p>
+                    In today's interconnected world, digital safety is more crucial than ever. With the increasing reliance on online platforms for communication, work, and personal activities, individuals are constantly at risk of cyber threats. Digital safety refers to the practices and measures that protect your personal information, privacy, and online activities from malicious actors and cybercrimes.
+                    This page aims to provide a comprehensive guide to digital safety, covering essential areas that everyone should be aware of. By understanding and implementing these practices, you can significantly reduce your vulnerability to cyber threats and protect your digital presence.</p>
+
+                    <p>
+                        This page aims to provide a comprehensive guide to digital safety, covering essential areas that everyone should be aware of. By understanding and implementing these practices, you can significantly reduce your vulnerability to cyber threats and protect your digital presence.</p>
+                </div>
+            </div>
+
+            <div class="content-container">
+                <!-- Title -->
+                <h1>KEY AREAS COVERED </h1>
+            
+                <!-- Paragraph with Grey Background -->
+                <p>
+                    In today's interconnected world, digital safety is more crucial than ever. With the increasing reliance on online platforms for communication, work, and personal activities, individuals are constantly at risk of cyber threats. Digital safety refers to the practices and measures that protect your personal information, privacy, and online activities from malicious actors and cybercrimes.
+                    This page aims to provide a comprehensive guide to digital safety, covering essential areas that everyone should be aware of. By understanding and implementing these practices, you can significantly reduce your vulnerability to cyber threats and protect your digital presence.</p>
+
+                </div>
+            </div>
+
+            <div class="container">
+                <h1>Cybersecurity Best Practices</h1>
+                <ol>
+                    <li>
+                        <strong>Password Security:</strong> Learn to create strong, unique passwords and use multi-factor authentication (MFA) to prevent unauthorized access.
+                    </li>
+                    <li>
+                        <strong>Phishing Awareness:</strong> Recognize phishing scams and understand best practices to protect your personal information from these common cyber threats.
+                    </li>
+                    <li>
+                        <strong>Social Media Privacy:</strong> Safeguard your social media accounts by adjusting privacy settings and being cautious about the information you share publicly.
+                    </li>
+                    <li>
+                        <strong>Safe Browsing Practices:</strong> Identify secure websites, use antivirus software, and practice safe browsing to avoid malicious sites and downloads.
+                    </li>
+                    <li>
+                        <strong>Data Backup Strategies:</strong> Regularly back up your data to ensure recovery in case of a cyber attack or hardware failure.
+                    </li>
+                </ol>
+                <p>By understanding these areas, you can navigate the digital world more securely and protect your personal information from online threats.</p>
+            </div>
+
+            <div class="content-container">
+                <!-- Title -->
+                <h1>Password Security</h1>
+            
+                <!-- Paragraph with Grey Background -->
+                <p>This is a sample paragraph with a grey background. You can replace this text with any content of your choice. The paragraph also has padding to improve readability and a border-radius for smooth corners.</p>
+            </div>
+
+            <div class="container">
+                <h1>Password Security Tips</h1>
+                <ul>
+                    <li>
+                        <strong>Creating Strong Passwords:</strong> Use a combination of upper and lowercase letters, numbers, and special characters to create complex passwords. Avoid using easily guessable information like your name, birthdate, or common words. For instance, a strong password could look like G7@f%l9$L!k2.
+                    </li>
+                    <li>
+                        <strong>Using Unique Passwords:</strong> Do not reuse passwords across different accounts. If one password is compromised, using it for multiple accounts increases the risk of all those accounts being accessed. Tools like password managers (e.g., LastPass, 1Password) can help generate and store unique passwords securely.
+                    </li>
+                    <li>
+                        <strong>Multi-Factor Authentication (MFA):</strong> Implement MFA to add an extra layer of security. This can involve receiving a code on your phone, using biometric verification, or answering security questions. Even if someone gains access to your password, MFA will prevent them from accessing your account without this additional step.
+                    </li>
+                </ul>
+            </div>
+
+            
+
+
+
+</div>
+
+</body>
+</html>

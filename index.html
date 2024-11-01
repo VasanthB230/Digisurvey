@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Yi</title>    
+    
+</head>
+<title>User Information Form</title>    
+    <style>        
+        body {            
+            font-family: Arial, sans-serif;            
+            background-color: #f9f9f9;            
+            padding: 15px;        
+        }        
+        .form-container {            
+            background-color: #fff;            
+            padding: 15px;            
+            border-radius: 10px;            
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);            
+            max-width: 400px;            
+            margin: 0 auto;        
+        }        
+        .form-container h1 {            
+            text-align: center;            
+            color: #333;        
+        }        
+        .form-container p {            
+            font-size: 14px;            
+            color: #666;            
+            margin-bottom: 10px;        
+        }        
+        .form-container label {            
+            display: block;            
+            margin-bottom: 5px;            
+            color: #333;        
+        }        
+        .form-container input[type="text"],        
+        .form-container input[type="email"] {            
+            width: 100%;            
+            padding: 10px;            
+            margin-bottom: 15px;            
+            border: 1px solid #ddd;            
+            border-radius: 5px;        
+        }        
+        .form-container button {            
+            width: 100%;            
+            padding: 10px;            
+            background-color: #007bff;            
+            color: white;            
+            border: none;            
+            border-radius: 5px;            
+            cursor: pointer;        
+        }        
+        .form-container button:hover {            
+            background-color: #0056b3;        
+        }        
+        .form-container img {            
+            display: block;            
+            margin: 0 auto 20px;            
+            width: 100px;            
+            height: 100px;            
+            border-radius: 50%;        
+        }    
+    </style>
+</head>
+
+<div class="flex flex-col items-center p-4 bg-background text-foreground">
+  <h1 class="text-2xl font-bold mb-4">DIGITAL SAFETY AUDIT</h1>
+  <h2 class="text-xl font-semibold mb-2">Welcome to the Digital Safety Audit</h2><br>
+    The Digital Safety Audit is designed to assess your online presence and help you understand your digital habits. It will help you identify any weak spots in your online security and provide you
+    with tips on how to improve.
+  </p>
+  <p class="text-muted-foreground mb-4">
+    This audit will help you navigate the vast digital landscape and ensure that you are taking the necessary steps to protect your personal information. You will be guided through various activities
+    to ensure you’re ready to come.
+  </p>
+  <h2 class="text-xl font-semibold mb-2">Masoom Digital Safety Audit</h2>
+  <p class="text-muted-foreground mb-4">by Young Indians, Chennai</p>
+  <p class="text-muted-foreground mb-4">Think of this as your personal online security audit, helping you not only weak spots in your digital habits and giving you tips on how to improve.</p>
+  <button class="bg-secondary text-secondary-foreground hover:bg-secondary/80 p-2 rounded-lg">Click on the Below Button to Start</button><br>
+  <button class="bg-primary text-primary-foreground hover:bg-primary/80 p-2 rounded-lg mt-2">START</button>
+</div>
+
+<body>    
+    <div class="form-container">        
+        <h1>Tell us about yourself</h1>                
+        <!-- Form Start -->        
+        <form id="userForm">            
+            <label for="name">Name:</label>            
+            <input type="text" id="name" name="name" required>            
+            <label for="email">Email ID:</label>            
+            <input type="email" id="email" name="email" required>            
+            <button type="submit">Submit</button>        
+        </form>    
+    </div>    
+    <script>        
+        document.getElementById('userForm').addEventListener('submit', function(event) {            
+            event.preventDefault(); // Prevent form submission            
+            const name = document.getElementById('name').value;            
+            const email = document.getElementById('email').value;            
+            alert(`Name: ${name}\nEmail: ${email}`);        
+        });    
+    </script>  
+</body>
+<div>
+<body>      
+    <div class="app">         
+        <h1>Masoom Digital Safety Audit</h1>        
+        <div class="quiz">            
+            <h2 id="question">Question goes here</h2>            
+            <div id="answer-buttons">                
+                <button class="btn">Answer 1</button>                
+                <button class="btn">Answer 2</button>                
+                <button class="btn">Answer 3</button>                
+                <button class="btn">Answer 4</button>            
+            </div>        
+        </div>        
+        <button id="next-btn">Next</button>    
+    </div>    
+    <script src="main.js"></script>  
+</div>
+</body>
+</html>
